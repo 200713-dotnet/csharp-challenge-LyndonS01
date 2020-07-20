@@ -2,7 +2,7 @@
 
 ## description
 
-You are tasked with creating a Palidrome Checker using the .NET/C# implementation. There will not be a User Interface. All cases should be written as Unit Tests.
+Yu are tasked with creating a Palidrome Checker using the .NET/C# implementation. There will not be a User Interface. All cases should be written as Unit Tests.
 
 ## technology
 
