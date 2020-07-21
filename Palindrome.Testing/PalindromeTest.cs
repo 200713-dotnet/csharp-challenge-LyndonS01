@@ -10,6 +10,7 @@ namespace Palindrome.Domain.Testing
     [InlineData("Malayalam")]
     [InlineData("The quickT")]
     [InlineData("madamImadam")]
+    [InlineData("dogeeseseegod")]
     public void Test_Palindrome(string string1)
     {
       //arrange
