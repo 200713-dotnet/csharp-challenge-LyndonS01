@@ -901,6 +901,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Palindrome.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Palindrome.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Palindrome.Domain.dll": {}
+        }
       }
     }
   },
@@ -3494,30 +3504,36 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Palindrome.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Palindrome.Domain/Palindrome.Domain.csproj",
+      "msbuildProject": "../Palindrome.Domain/Palindrome.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.5.0",
+      "Palindrome.Domain >= 1.0.0",
       "coverlet.collector >= 1.2.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
     ]
   },
   "packageFolders": {
-    "/home/fred/.nuget/packages/": {}
+    "/home/lyndons/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/fred/2007_13_dotnet/coding_challenges/Palindrome/Palindrome.Testing/Palindrome.Testing.csproj",
+      "projectUniqueName": "/home/lyndons/2007_13_dotnet/week_1/csharp-challenge-LyndonS01/Palindrome.Testing/Palindrome.Testing.csproj",
       "projectName": "Palindrome.Testing",
-      "projectPath": "/home/fred/2007_13_dotnet/coding_challenges/Palindrome/Palindrome.Testing/Palindrome.Testing.csproj",
-      "packagesPath": "/home/fred/.nuget/packages/",
-      "outputPath": "/home/fred/2007_13_dotnet/coding_challenges/Palindrome/Palindrome.Testing/obj/",
+      "projectPath": "/home/lyndons/2007_13_dotnet/week_1/csharp-challenge-LyndonS01/Palindrome.Testing/Palindrome.Testing.csproj",
+      "packagesPath": "/home/lyndons/.nuget/packages/",
+      "outputPath": "/home/lyndons/2007_13_dotnet/week_1/csharp-challenge-LyndonS01/Palindrome.Testing/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/fred/.nuget/NuGet/NuGet.Config"
+        "/home/lyndons/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -3527,7 +3543,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/lyndons/2007_13_dotnet/week_1/csharp-challenge-LyndonS01/Palindrome.Domain/Palindrome.Domain.csproj": {
+              "projectPath": "/home/lyndons/2007_13_dotnet/week_1/csharp-challenge-LyndonS01/Palindrome.Domain/Palindrome.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
